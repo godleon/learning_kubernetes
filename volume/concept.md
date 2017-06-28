@@ -385,3 +385,5 @@ References
 - [Labels and Selectors \| Kubernetes](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/)
 
 - [Secrets \| Kubernetes](https://kubernetes.io/docs/concepts/configuration/secret/)
+
+- [kubernetes/examples/volumes at master · kubernetes/kubernetes](https://github.com/kubernetes/kubernetes/tree/master/examples/volumes)
