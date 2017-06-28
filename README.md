@@ -1,4 +1,4 @@
-This repository is used for keeping the studying notes when learning Kubernetes.
+Kubernetes 學習筆記
 
 
 Concepts
