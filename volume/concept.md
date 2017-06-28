@@ -9,15 +9,7 @@ Overview
 
 而在 K8s 中則將此問題抽象化成 **Volume** resource，並支援很多種不同的 volume driver 藉此來提供統一的定義方式 & 強大的擴充彈性 & 多種不同的應用方式。
 
-目前支援的 volume type 可參考[官網資料](https://kubernetes.io/docs/concepts/storage/volumes/#types-of-volumes)，以下會用以下幾種來示範：
-
-- **emptyDir**
-
-- **nfs**
-
-- **iscsi**
-
-- **rbd**
+目前支援的 volume type 可參考[官網資料](https://kubernetes.io/docs/concepts/storage/volumes/#types-of-volumes)。
 
 
 --------------------------------------------
