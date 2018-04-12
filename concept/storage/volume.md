@@ -50,7 +50,7 @@ spec:
 PersistentVolume, PersistentVolumeClaim & StorageClass 概觀
 ===========================================================
 
-管理 storage 一直是一個獨立的課題，在 Kubernetes 中使用了 PersistentVolume & PersistentVolume 兩種 resource，藉由提供標準的 API，讓 storage 的管理與應用抽象化。
+管理 storage 一直是一個獨立的課題，在 Kubernetes 中使用了 PersistentVolume & PersistentVolumeClaim 兩種 resource，藉由提供標準的 API，讓 storage 的管理與應用抽象化。
 
 `PersistentVolume`(簡稱 `PV`) resource 在概念上可以視為可讓 pod 掛載的 storage，後面的實作(NFS, iCSCI, RBD ... etc)都已經被標準的 API 隱藏，管理者可以透過標準的宣告方式佈署所需要的 storage resource；而 PersistentVolume 的 lifecycle 會跟著使用 PersistentVolume 的 pod 走，當所有 pod 都消失，PersistentVolume resource 也會跟著消失，但儲存在上面的資料依然會存在。
 
