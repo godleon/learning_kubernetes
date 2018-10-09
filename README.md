@@ -14,6 +14,11 @@ Concepts
 
 - [Kubernetes Overview](concept/overview.md)
 
+
+## Pod and Service
+
+- [Init Container](concepts/pod_and_service/init_container.md)
+
 ## Networking
 
 - [Service](concept/network/service.md)
